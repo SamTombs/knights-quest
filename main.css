@@ -9,37 +9,62 @@
     font-family: 'Pixelify Sans'; 
   }
 
-  #game-screen {
-    padding: 5px;
-    width: 690px;
-    height: 600px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    border: 8px ridge rgb(161, 71, 3);
-    background-color: #1f1e1e;
-  }
-
-  .button-one {
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    color: chocolate;
-    cursor: pointer;
-  }
-
-  #home-picture {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  #picture {
     border-radius: 8px;
     height: 442px;
     padding: 0px;
+    
   }
 
-  .main-text {
+  #game-screen {
+    width: 681px;
+    height: 620px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 8px;
+    border: 8px ridge rgb(161, 71, 3);
+    background-color: #1f1e1e;
     display: flex;
-    justify-content: center;
-    color: burlywood;
+    align-items: center;  
+    justify-content: center; 
   }
+  
+  .opening-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .button-option-one {
+    position: absolute;
+    top: 95%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button-option-two {
+    position: absolute;
+    top: 95%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    padding: 10px 0px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 16px;
+    
+    cursor: pointer;
+  }
+  
+  .para {
+      padding: 10px;
+      border: 2px solid black;
+      background-color: #e8b96e;
+      font-family: 'Pixelify Sans', sans-serif;
+      font-size: 15px;
+      color: black;
+      line-height: 1.5;
+  }
+    
