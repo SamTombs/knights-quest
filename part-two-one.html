@@ -1,24 +1,36 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knights Quest</title>
-    <script defer src="./app.js"></script>
-    <link rel="stylesheet" href="./main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Knights Quest</title>
+  <script defer src="./app.js"></script>
+  <link rel="stylesheet" href="./main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <nav>
-        <div id="game-screen-start">
-            <div class="opening-screen">
-                <img src="Images/Part 2-reward.png" id="picture" alt="Home-page">
-                <a href="part-three.html">
-                    <button class="button-one">Continue</button>
-                </a>
-            </div>
+  <nav>
+    <div id="game-screen-two">
+      <div class="opening-screen">
+        <img src="Images/Part 2-reward.png" id="picture" alt="dark-path" />
+        <p class="para">
+          The knight passed beneath the crumbling archway, shadows curling around him like smoke.  
+          Though dread stirred within, he pressed forward — and was met with a faint, golden glow.  
+          Atop an ancient stone lay the Bracelet of Courage. His bravery had not gone unnoticed.
+        </p>
+        <a href="part-three.html">
+            <button class="button-single">Continue</button>
+          </a>
+        <div id="button-row">
+            <button class="item-choice" data-item="Bracelet of Courage">Pick up the bracelet</button>
+            <button id="inventory-toggle">View Inventory</button>
+          </div>          
+        <div id="inventory-container" style="display: none;">
+          <h3>Inventory</h3>
+          <ul id="inventory-list"></ul>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>

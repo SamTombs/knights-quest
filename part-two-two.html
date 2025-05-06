@@ -11,12 +11,25 @@
 </head>
 <body>
     <nav>
-        <div id="game-screen-start">
+        <div id="game-screen-two">
             <div class="opening-screen">
-                <img src="Images/Part 2 - Punishment.png" id="picture" alt="Home-page">
+                <img src="Images/Part 2 - Punishment.png" id="picture" alt="bridge-path">
+                <p class="para">
+                    The knight crossed the sunlit stone bridge, his armor warm beneath the midday sun.  
+                    From the clear lake below, a melodic voice rose, tempting him to abandon the path.  
+                    He paused, then pressed on, unwavering. At the far end, a radiant charm awaited — the Sigil of Willpower.
+                  </p>                  
                 <a href="part-three.html">
-                    <button class="button-one">Continue</button>
+                    <button class="button-single">Continue</button>
                 </a>
+                <div id="button-row">
+                    <button class="item-choice" data-item="Sigil of Willpower">Pick up the Sigil</button>
+                    <button id="inventory-toggle">View Inventory</button>
+                  </div>          
+                <div id="inventory-container" style="display: none;">
+                  <h3>Inventory</h3>
+                  <ul id="inventory-list"></ul>
+                </div>
             </div>
         </div>
     </nav>

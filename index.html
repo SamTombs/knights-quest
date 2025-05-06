@@ -11,11 +11,19 @@
 <body>
     <nav>
         <div id="game-screen-start">
-            <div class="opening-screen">
+            <div class="opening-screen-start">
                 <img src="Images/Part 0 - Home Page.png" id="picture" alt="Home-page">
+                <p class="para">Choose your path wisely, brave knight. Each decision leads to a new fate. Click on chosen option. Remember to add items to inventory when offered</p>
                 <a href="part-one.html">
-                    <button class="button-one">Start Game</button>
+                    <button class="button-single">Start Game</button>
                 </a>
+                <div id="button-row">
+                    <button id="clear-inventory">Clear Inv</button>
+                </div> 
+                <div id="inventory-container" style="display: none;">
+                    <h3>Inventory</h3>
+                    <ul id="inventory-list"></ul>
+                </div>                     
             </div>
         </div>
     </nav>
