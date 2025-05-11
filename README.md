@@ -6,7 +6,8 @@ You can exclude this section if it does not apply to your application.
 
 
 Game link -------> 
-Trello link --------->
+
+Trello link ---------> https://trello.com/b/EgfdaNqa/my-trello-board
 
 🏰 Knights Quest
 Knights Quest is a pixel-art, choose-your-own-adventure web game where you play as a knight on a quest to rescue a kidnapped magical cat from an evil king. 
