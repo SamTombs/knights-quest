@@ -16,7 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
   inventory.forEach(item => {
     const li = document.createElement("li");
     li.textContent = item;
-    inventoryList?.appendChild(li);
+    if (inventoryList) {
+      inventoryList.appendChild(li);
+    }    
   });
 
   // If inventory doesn't include Marmite, disable button
@@ -36,7 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const li = document.createElement("li");
       li.textContent = itemName;
-      inventoryList?.appendChild(li);
+      if (inventoryList) {
+        inventoryList.appendChild(li);
+      }   
 
       checkInventory();
     }
