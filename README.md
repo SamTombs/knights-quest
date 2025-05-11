@@ -1,8 +1,7 @@
 ![Part 0 - Home Page](https://github.com/user-attachments/assets/f9a54bbf-e57d-4aef-ab85-be3be8823c3c)
 
 
-Attributions: This section should include links to any external resources (such as libraries or assets) you used to develop your application that require attribution. 
-You can exclude this section if it does not apply to your application.
+
 
 
 Game link -------> 
@@ -49,11 +48,17 @@ localStorage: Inventory persistence across pages
 File Storage
 /
 ├── index.html            # Home page
+
 ├── part-one.html         # First game scene
+
 ├── part-two.html         # Additional scenes...
+
 ├── app.js                # Main JavaScript logic
+
 ├── main.css              # Game styling
+
 ├── Images/               # All pixel-art assets
+
 └── README.md             # This file
 
 ✅ To-Do / Future Enhancements
