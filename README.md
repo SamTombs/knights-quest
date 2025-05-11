@@ -4,7 +4,7 @@
 
 
 
-Game link -------> 
+Game link -------> https://samtombs.github.io/knights-quest/
 
 Trello link ---------> https://trello.com/b/EgfdaNqa/my-trello-board
 
